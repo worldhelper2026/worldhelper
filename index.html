@@ -4,153 +4,275 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>WorldHelper - Free Online Tools</title>
-<meta name="description" content="Free online tools for age, percentage, QR codes, image compression, PDF merging and unit conversion.">
+
+<title>WorldHelper - Free Online Calculators, QR Code, PDF & Image Tools</title>
+
+<meta name="description" content="Use free online tools at WorldHelper: age calculator, percentage calculator, QR code generator, image compressor, PDF merger and unit converter. Simple, fast and easy to use.">
+
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://worldhelper2026.github.io/worldhelper/">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="WorldHelper - Free Online Tools">
+<meta property="og:description" content="One World. One Website. Free online calculators, QR code generator, image compressor, PDF merger and unit converter.">
+<meta property="og:url" content="https://worldhelper2026.github.io/worldhelper/">
+<meta property="og:site_name" content="WorldHelper">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="WorldHelper - Free Online Tools">
+<meta name="twitter:description" content="Free and easy online tools for everyday tasks.">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "WorldHelper",
+  "url": "https://worldhelper2026.github.io/worldhelper/",
+  "description": "Free online calculators and useful digital tools.",
+  "inLanguage": "en"
+}
+</script>
+
 <style>
 *{box-sizing:border-box}
-body{margin:0;font-family:Arial,sans-serif;background:#f0f7f1;color:#24352a}
-header{background:linear-gradient(120deg,#075c35,#20a464);color:white;text-align:center;padding:35px 15px}
-header h1{font-size:36px;margin:0 0 10px}
-header p{margin:0;font-size:16px}
-nav{background:#064c2c;padding:13px;text-align:center}
-nav a{color:white;text-decoration:none;margin:8px;font-size:14px}
-.container{max-width:1100px;margin:25px auto;padding:0 15px}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Arial,sans-serif;background:#f0f7f1;color:#24352a;line-height:1.6}
+header{background:linear-gradient(120deg,#075c35,#20a464);color:white;text-align:center;padding:40px 15px}
+header h1{font-size:38px;margin:0 0 8px}
+header p{margin:0;font-size:17px}
+nav{background:#064c2c;padding:14px;text-align:center;position:sticky;top:0;z-index:10}
+nav a{color:white;text-decoration:none;margin:7px 10px;font-size:14px;display:inline-block}
+nav a:hover{text-decoration:underline}
+.container{max-width:1100px;margin:28px auto;padding:0 15px}
+.intro,.content-section{background:white;padding:25px;border-radius:14px;box-shadow:0 4px 15px #0000000d;margin-bottom:25px}
+h2{color:#087442}
 .tools{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
-.card{background:white;padding:22px;border-radius:14px;box-shadow:0 4px 15px #00000012}
-.card h2{color:#087442;font-size:21px;margin-top:0}
+.card{background:white;padding:22px;border-radius:14px;box-shadow:0 4px 15px #00000012;scroll-margin-top:85px}
+.card h2{font-size:21px;margin-top:0}
 input,select,button{width:100%;padding:12px;margin:8px 0;border:1px solid #ccd8cf;border-radius:7px;font-size:15px}
 button{background:#078348;color:white;border:0;font-weight:bold;cursor:pointer}
 button:hover{background:#056436}
-.result{background:#e8f6ed;padding:12px;border-radius:7px;margin-top:10px;overflow-wrap:anywhere}
-img{max-width:100%;margin-top:10px}
-footer{text-align:center;background:#064c2c;color:white;padding:25px;margin-top:35px}
-small{color:#65756a}
+.result{background:#e8f6ed;padding:12px;border-radius:7px;margin-top:10px;overflow-wrap:anywhere;min-height:35px}
+.result img{max-width:100%;height:auto}
+a{color:#087442}
+footer{background:#064c2c;color:white;text-align:center;padding:28px 15px;margin-top:40px}
+footer a{color:white;margin:6px 9px;display:inline-block}
+footer small{color:#d9eee0}
+.content-section{scroll-margin-top:85px}
+.content-section h2{margin-top:0}
+@media(max-width:600px){
+header h1{font-size:30px}
+nav{position:static}
+nav a{margin:6px}
+}
 </style>
 </head>
+
 <body>
 
 <header>
 <h1>🌿 WorldHelper</h1>
-<p>One World. One Website. | Free Online Tools Website</p>
+<p>One World. One Website. | Free Online Tools for Everyone</p>
 </header>
 
 <nav>
-<a href="#age">Age</a>
+<a href="#age">Age Calculator</a>
 <a href="#percentage">Percentage</a>
-<a href="#qr">QR Code</a>
+<a href="#qr">QR Generator</a>
 <a href="#image">Image Compressor</a>
 <a href="#pdf">PDF Merger</a>
 <a href="#unit">Unit Converter</a>
+<a href="#about">About</a>
+<a href="#contact">Contact</a>
 </nav>
 
-<div class="container">
+<main class="container">
+
+<section class="intro">
+<h2>Free Online Tools for Everyday Use</h2>
+<p>Welcome to WorldHelper, your simple destination for free online tools. Calculate your age, find percentages, generate QR codes, compress images, merge PDF files and convert units in one convenient place.</p>
+<p>Our tools are designed to be simple and easy to use on desktop computers, tablets and mobile devices. Choose a tool below and get started.</p>
+</section>
+
 <div class="tools">
 
 <section class="card" id="age">
-<h2>🎂 Age Calculator</h2>
-<p>Calculate your exact age.</p>
+<h2>🎂 Free Age Calculator</h2>
+<p>Calculate your exact age in years, months and days using your date of birth.</p>
+<label for="dob">Date of Birth</label>
 <input type="date" id="dob">
 <button onclick="calculateAge()">Calculate Age</button>
-<div class="result" id="ageResult">Your age will appear here.</div>
+<div class="result" id="ageResult" aria-live="polite">Your age will appear here.</div>
 </section>
 
 <section class="card" id="percentage">
 <h2>📊 Percentage Calculator</h2>
-<p>Calculate percentage easily.</p>
-<input type="number" id="obtained" placeholder="Obtained marks">
-<input type="number" id="total" placeholder="Total marks">
+<p>Calculate marks percentage, scores and other percentage values quickly.</p>
+<label for="obtained">Obtained Marks</label>
+<input type="number" id="obtained" placeholder="Enter obtained marks" min="0">
+<label for="total">Total Marks</label>
+<input type="number" id="total" placeholder="Enter total marks" min="1">
 <button onclick="calculatePercentage()">Calculate Percentage</button>
-<div class="result" id="percentageResult">Your percentage will appear here.</div>
+<div class="result" id="percentageResult" aria-live="polite">Your percentage will appear here.</div>
 </section>
 
 <section class="card" id="qr">
 <h2>🔳 QR Code Generator</h2>
-<p>Generate a QR code from text or a link.</p>
+<p>Create a QR code from text, contact information or a website link.</p>
+<label for="qrText">Text or Website URL</label>
 <input type="text" id="qrText" placeholder="Enter text or website URL">
 <button onclick="generateQR()">Generate QR Code</button>
-<div id="qrResult" class="result">Your QR code will appear here.</div>
+<div id="qrResult" class="result" aria-live="polite">Your QR code will appear here.</div>
 </section>
 
 <section class="card" id="image">
 <h2>🖼️ Image Compressor</h2>
-<p>Compress an image in your browser.</p>
+<p>Reduce image file size in your browser. Select an image and choose the quality level.</p>
+<label for="imageFile">Choose Image</label>
 <input type="file" id="imageFile" accept="image/*">
-<label>Image quality</label>
+<label for="quality">Image Quality</label>
 <input type="range" id="quality" min="10" max="100" value="70">
 <button onclick="compressImage()">Compress Image</button>
-<div id="imageResult" class="result"></div>
+<div id="imageResult" class="result" aria-live="polite"></div>
 </section>
 
 <section class="card" id="pdf">
 <h2>📄 PDF Merger</h2>
-<p>Select multiple PDF files to merge.</p>
+<p>Combine two or more PDF documents into one PDF file.</p>
+<label for="pdfFiles">Select PDF Files</label>
 <input type="file" id="pdfFiles" accept="application/pdf" multiple>
 <button onclick="mergePDFs()">Merge PDF Files</button>
-<div id="pdfResult" class="result"></div>
+<div id="pdfResult" class="result" aria-live="polite"></div>
 </section>
 
 <section class="card" id="unit">
 <h2>📏 Unit Converter</h2>
-<p>Convert length, weight and temperature.</p>
+<p>Convert length, weight and temperature measurements easily.</p>
+<label for="unitType">Conversion Type</label>
 <select id="unitType" onchange="updateUnits()">
 <option value="length">Length</option>
 <option value="weight">Weight</option>
 <option value="temperature">Temperature</option>
 </select>
+<label for="unitValue">Enter Value</label>
 <input type="number" id="unitValue" placeholder="Enter value" value="1">
+<label for="fromUnit">From</label>
 <select id="fromUnit"></select>
+<label for="toUnit">To</label>
 <select id="toUnit"></select>
 <button onclick="convertUnit()">Convert</button>
-<div id="unitResult" class="result">Your result will appear here.</div>
+<div id="unitResult" class="result" aria-live="polite">Your result will appear here.</div>
 </section>
 
 </div>
-</div>
+
+<section class="content-section">
+<h2>Why Use WorldHelper?</h2>
+<p>WorldHelper brings commonly used online tools together in one place. You do not need to search for a different website for every small task. Our goal is to make everyday calculations and file-related tasks more convenient.</p>
+<ul>
+<li>Free tools for everyday tasks.</li>
+<li>Simple and easy-to-use interface.</li>
+<li>Works on desktop and mobile devices.</li>
+<li>Useful calculators and file tools in one place.</li>
+<li>Designed for visitors around the world.</li>
+</ul>
+</section>
+
+<section class="content-section" id="about">
+<h2>About WorldHelper</h2>
+<p>WorldHelper is an online platform created to make everyday digital tasks easier. We provide useful tools such as an Age Calculator, Percentage Calculator, QR Code Generator, Image Compressor, PDF Merger and Unit Converter.</p>
+<p>Our mission is to offer simple, accessible and helpful online tools. We aim to improve the website and introduce more useful features over time.</p>
+<p><strong>Created and managed by:</strong> Vikas Kumar</p>
+</section>
+
+<section class="content-section" id="contact">
+<h2>Contact Us</h2>
+<p>Have a question, suggestion or feedback? We would be happy to hear from you.</p>
+<p><strong>Website Owner:</strong> Vikas Kumar</p>
+<p><strong>Email:</strong> <a href="mailto:Vikaskumar22928@yahoo.com">Vikaskumar22928@yahoo.com</a></p>
+</section>
+
+<section class="content-section" id="privacy">
+<h2>Privacy Policy</h2>
+<p>WorldHelper respects your privacy. If you contact us by email, we receive the information you choose to share so that we can respond to your message.</p>
+<p>Some tools are designed to process selected information in your browser. However, the QR Code Generator uses an external QR code service, and the PDF Merger uses an external software library. External services may process information according to their own policies. Avoid submitting confidential or sensitive information.</p>
+<p>Our hosting provider, GitHub Pages, and any third-party services used by this website may process technical information as described in their respective policies. If analytics or advertising services are added in the future, this policy should be updated to explain their use of cookies and data.</p>
+<p>For privacy questions, contact <a href="mailto:Vikaskumar22928@yahoo.com">Vikaskumar22928@yahoo.com</a>.</p>
+<p><small>Last updated: 13 November 2026. This is general website information, not legal advice. Review it if you add analytics, advertising or other third-party services.</small></p>
+</section>
+
+<section class="content-section" id="terms">
+<h2>Terms and Conditions</h2>
+<p>By using WorldHelper, you agree to use the website and its tools lawfully and responsibly.</p>
+<p>Our tools are provided for general convenience. Results may contain errors or limitations. Please independently verify important calculations, conversions and generated files before relying on them.</p>
+<p>WorldHelper does not provide professional, legal, medical or financial advice. We do not guarantee uninterrupted website availability. Features may be updated, changed or removed.</p>
+<p>Some features may depend on third-party services and libraries. Their services are subject to their own terms and policies.</p>
+<p>To the extent permitted by applicable law, WorldHelper is not responsible for losses arising from the use of this website or its tools.</p>
+<p>Questions about these terms can be sent to <a href="mailto:Vikaskumar22928@yahoo.com">Vikaskumar22928@yahoo.com</a>.</p>
+<p><small>Last updated: 13 November 2026. These are general terms, not legal advice.</small></p>
+</section>
+
+</main>
 
 <footer>
-<h3>WorldHelper</h3>
+<h3>🌿 WorldHelper</h3>
 <p>One World. One Website.</p>
-<small>Free online tools for everyone.</small>
+<p><small>Free online tools for everyone.</small></p>
+<div>
+<a href="#about">About Us</a>
+<a href="#contact">Contact Us</a>
+<a href="#privacy">Privacy Policy</a>
+<a href="#terms">Terms &amp; Conditions</a>
+</div>
+<p><small>© 2026 WorldHelper. Created and managed by Vikas Kumar.</small></p>
+<p><small>Contact: Vikaskumar22928@yahoo.com</small></p>
 </footer>
 
 <script>
 function calculateAge(){
 const dob=document.getElementById('dob').value;
-if(!dob){alert('Please select your date of birth');return;}
+const result=document.getElementById('ageResult');
+if(!dob){result.textContent='Please select your date of birth.';return;}
 const birth=new Date(dob+'T00:00:00');
 const today=new Date();
-if(birth>today){alert('Date of birth cannot be in the future');return;}
+if(birth>today){result.textContent='Date of birth cannot be in the future.';return;}
 let years=today.getFullYear()-birth.getFullYear();
 let months=today.getMonth()-birth.getMonth();
 let days=today.getDate()-birth.getDate();
 if(days<0){months--;days+=new Date(today.getFullYear(),today.getMonth(),0).getDate();}
 if(months<0){years--;months+=12;}
-document.getElementById('ageResult').innerHTML=
-'<b>Your Age:</b> '+years+' Years, '+months+' Months, '+days+' Days';
+result.textContent='Your Age: '+years+' Years, '+months+' Months, '+days+' Days';
 }
 
 function calculatePercentage(){
 const a=Number(document.getElementById('obtained').value);
 const b=Number(document.getElementById('total').value);
-if(!b||b<0||a<0){alert('Please enter valid marks');return;}
-document.getElementById('percentageResult').innerHTML=
-'<b>Percentage:</b> '+(a/b*100).toFixed(2)+'%';
+const result=document.getElementById('percentageResult');
+if(document.getElementById('obtained').value==='' ||
+document.getElementById('total').value==='' ||
+b<=0 || a<0 || a>b){
+result.textContent='Please enter valid marks. Obtained marks cannot exceed total marks.';
+return;
+}
+result.textContent='Percentage: '+(a/b*100).toFixed(2)+'%';
 }
 
 function generateQR(){
 const text=document.getElementById('qrText').value.trim();
-if(!text){alert('Please enter text or URL');return;}
 const result=document.getElementById('qrResult');
+if(!text){result.textContent='Please enter text or a website URL.';return;}
 result.innerHTML='';
 const img=document.createElement('img');
 img.alt='Generated QR Code';
 img.src='https://api.qrserver.com/v1/create-qr-code/?size=220x220&data='+encodeURIComponent(text);
+img.onerror=()=>{result.textContent='QR code could not be generated. Please try again.';};
 result.appendChild(img);
 }
 
 function compressImage(){
 const file=document.getElementById('imageFile').files[0];
-if(!file){alert('Please select an image');return;}
+const result=document.getElementById('imageResult');
+if(!file){result.textContent='Please select an image.';return;}
 const reader=new FileReader();
 reader.onload=e=>{
 const img=new Image();
@@ -158,32 +280,34 @@ img.onload=()=>{
 const canvas=document.createElement('canvas');
 const max=1800;
 const scale=Math.min(1,max/Math.max(img.width,img.height));
-canvas.width=img.width*scale;
-canvas.height=img.height*scale;
+canvas.width=Math.round(img.width*scale);
+canvas.height=Math.round(img.height*scale);
 canvas.getContext('2d').drawImage(img,0,0,canvas.width,canvas.height);
 canvas.toBlob(blob=>{
-if(!blob)return;
+if(!blob){result.textContent='Image compression failed.';return;}
 const url=URL.createObjectURL(blob);
+result.innerHTML='<p>Original size: '+(file.size/1024).toFixed(1)+' KB</p><p>Compressed size: '+(blob.size/1024).toFixed(1)+' KB</p>';
 const link=document.createElement('a');
 link.href=url;
 link.download='compressed-image.jpg';
 link.textContent='Download Compressed Image';
-const result=document.getElementById('imageResult');
-result.innerHTML='<p>Original size: '+(file.size/1024).toFixed(1)+' KB</p><p>Compressed size: '+(blob.size/1024).toFixed(1)+' KB</p>';
 result.appendChild(link);
 },'image/jpeg',Number(document.getElementById('quality').value)/100);
 };
+img.onerror=()=>{result.textContent='Unable to read this image.';};
 img.src=e.target.result;
 };
+reader.onerror=()=>{result.textContent='Unable to open this file.';};
 reader.readAsDataURL(file);
 }
 
 async function mergePDFs(){
 const files=Array.from(document.getElementById('pdfFiles').files);
-if(files.length<2){alert('Please select at least 2 PDF files');return;}
 const output=document.getElementById('pdfResult');
+if(files.length<2){output.textContent='Please select at least 2 PDF files.';return;}
 try{
 if(!window.PDFLib)throw new Error('PDF library is loading. Please refresh and try again.');
+output.textContent='Merging PDF files...';
 const merged=await PDFLib.PDFDocument.create();
 for(const file of files){
 const bytes=await file.arrayBuffer();
@@ -212,7 +336,7 @@ function updateUnits(){
 const type=document.getElementById('unitType').value;
 const from=document.getElementById('fromUnit');
 const to=document.getElementById('toUnit');
-let options=type==='temperature'?['Celsius','Fahrenheit','Kelvin']:Object.keys(units[type]);
+const options=type==='temperature'?['Celsius','Fahrenheit','Kelvin']:Object.keys(units[type]);
 from.innerHTML=options.map(x=>'<option>'+x+'</option>').join('');
 to.innerHTML=options.map(x=>'<option>'+x+'</option>').join('');
 if(options.length>1)to.selectedIndex=1;
@@ -220,21 +344,26 @@ if(options.length>1)to.selectedIndex=1;
 
 function convertUnit(){
 const type=document.getElementById('unitType').value;
-const value=Number(document.getElementById('unitValue').value);
+const raw=document.getElementById('unitValue').value;
+const value=Number(raw);
 const from=document.getElementById('fromUnit').value;
 const to=document.getElementById('toUnit').value;
+const output=document.getElementById('unitResult');
+if(raw==='' || !Number.isFinite(value)){output.textContent='Please enter a valid number.';return;}
 let result;
 if(type==='temperature'){
-let c=from==='Celsius'?value:from==='Fahrenheit'?(value-32)*5/9:value-273.15;
+const c=from==='Celsius'?value:from==='Fahrenheit'?(value-32)*5/9:value-273.15;
 result=to==='Celsius'?c:to==='Fahrenheit'?c*9/5+32:c+273.15;
 }else{
 result=value*units[type][from]/units[type][to];
 }
-document.getElementById('unitResult').innerHTML='<b>Result:</b> '+result.toFixed(4)+' '+to;
+output.textContent='Result: '+result.toFixed(4)+' '+to;
 }
+
 updateUnits();
 </script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf-lib/1.17.1/pdf-lib.min.js"></script>
+
 </body>
 </html>
