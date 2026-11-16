@@ -1,0 +1,26 @@
+WORLDHELPER WEBSITE UPDATE
+
+Upload all files in this package to the ROOT of your GitHub repository:
+https://github.com/worldhelper2026/worldhelper
+
+Files include the updated homepage, six individual tool pages, About, Contact,
+Privacy Policy, Terms & Conditions, sitemap.xml and robots.txt.
+
+Steps:
+1. Open the GitHub repository.
+2. Choose Add file > Upload files.
+3. Select all files from this package (not the ZIP itself).
+4. Upload them at the repository root, at the same level as the current index.html.
+5. Commit changes.
+6. After GitHub Pages updates, open:
+   https://worldhelper2026.github.io/worldhelper/
+
+Then submit this sitemap in Google Search Console:
+https://worldhelper2026.github.io/worldhelper/sitemap.xml
+
+Important:
+- Keep all files in the repository root, not a new folder.
+- QR Code Generator sends the entered text/URL to api.qrserver.com.
+- PDF Merger loads pdf-lib from cdnjs; PDF files are processed in the browser.
+- Google decides which pages to index; indexing is not guaranteed.
+- Review legal text for your actual practices and local legal requirements.

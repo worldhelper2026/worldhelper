@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://worldhelper2026.github.io/worldhelper/sitemap.xml

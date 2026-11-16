@@ -1,7 +1,14 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://worldhelper2026.github.io/worldhelper/</loc>
-  </url>
+  <url><loc>https://worldhelper2026.github.io/worldhelper/index.html</loc></url>
+  <url><loc>https://worldhelper2026.github.io/worldhelper/age-calculator.html</loc></url>
+  <url><loc>https://worldhelper2026.github.io/worldhelper/percentage-calculator.html</loc></url>
+  <url><loc>https://worldhelper2026.github.io/worldhelper/qr-code-generator.html</loc></url>
+  <url><loc>https://worldhelper2026.github.io/worldhelper/image-compressor.html</loc></url>
+  <url><loc>https://worldhelper2026.github.io/worldhelper/pdf-merger.html</loc></url>
+  <url><loc>https://worldhelper2026.github.io/worldhelper/unit-converter.html</loc></url>
+  <url><loc>https://worldhelper2026.github.io/worldhelper/about.html</loc></url>
+  <url><loc>https://worldhelper2026.github.io/worldhelper/contact.html</loc></url>
+  <url><loc>https://worldhelper2026.github.io/worldhelper/privacy-policy.html</loc></url>
+  <url><loc>https://worldhelper2026.github.io/worldhelper/terms-and-conditions.html</loc></url>
 </urlset>
-
